@@ -1,0 +1,26 @@
+recTest(6) --> recTest(2) & recTest(4) & prints "6 "
+recTest(2) --> recTest(-2) & recTest(0) & prints "2 "
+recTest(4) --> recTest(0) & recTest(2) -- prints 2 & prints "4 "
+recTest(-2) --> returns nothing
+recTest(0) --> returns nothing
+recTest(0) --> returns nothing
+recTest(2) --> prints "2 "
+6 prints last 
+2 2 4 6
+
+r(6)
+    r(2)
+        r(-2) == nothing
+        r(0) == nothing
+        print(2)
+
+    r(4)
+        r(0) == nothing
+        r(2) == print(2)
+        print(4)
+
+    print(6)
+
+or do a tree and go left to right
+
+big(o) is n^2 add clicker up to n - 1, n values adding tgt goes to n - 1

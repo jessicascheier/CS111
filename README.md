@@ -1,0 +1,1 @@
+This repository includes assignments I completed and other supplemental materials such as previous exams provided, lecture notes, and recitations at Rutgers University for the course CS111 in Spring 2022.
